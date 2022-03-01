@@ -1,10 +1,39 @@
 {
   "name": "root",
   "private": true,
+  "author": {
+    "name": "Jandir A. Cutabiala",
+    "email": "me@jandir.co",
+    "url": "https://jandir.co"
+  },
+  "scripts": {
+    "dependencies": "scripty",
+    "develop": "scripty",
+    "build": "scripty",
+    "lint": "scripty",
+    "test": "scripty",
+    "clean": "scripty"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.29.2",
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0",
+    "typescript": "^4.5.5"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripty": {
+    "path": "./config/scripts/workspace"
+  }
 }
