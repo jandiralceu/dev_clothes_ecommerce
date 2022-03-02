@@ -1,7 +1,6 @@
 {
   "files": [],
   "references": [
-    { "path": "appshell" },
-    { "path": "auth" }
+    { "path": "appshell" }
   ]
 }
