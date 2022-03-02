@@ -6,6 +6,14 @@
     "email": "me@jandir.co",
     "url": "https://jandir.co"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandiralceu/dev_clothes_ecommerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jandiralceu/dev_clothes_ecommerce/issues",
+    "email": "me@jandir.co"
+  },
   "scripts": {
     "dependencies": "scripty",
     "develop": "scripty",
@@ -37,6 +45,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.0",
     "lerna": "^4.0.0",
+    "lerna-changelog": "^2.2.0",
     "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
