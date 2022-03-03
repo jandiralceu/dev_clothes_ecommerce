@@ -63,5 +63,12 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "yarn lint:eslint",
+      "yarn lint:prettier",
+      "yarn test:staged"
+    ]
   }
 }
