@@ -35,6 +35,8 @@
     "@commitlint/config-lerna-scopes": "^16.2.2",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^8.4.0",
     "eslint-config-standard": "^16.0.3",
@@ -45,7 +47,6 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.0",
     "lerna": "^4.0.0",
-    "lerna-changelog": "^2.2.0",
     "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
@@ -57,5 +58,10 @@
   ],
   "scripty": {
     "path": "./config/scripts/workspaces"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
