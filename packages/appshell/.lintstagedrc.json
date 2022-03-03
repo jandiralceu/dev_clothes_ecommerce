@@ -1,0 +1,7 @@
+{
+  "*.{ts,tsx,js,jsx}": [
+    "yarn lint:eslint",
+    "yarn lint:prettier",
+    "yarn test:staged"
+  ]
+}
